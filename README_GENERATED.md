@@ -156,6 +156,15 @@ pnpm start
 - `pnpm format` - Format code with Biome
 - `pnpm type-check` - Check TypeScript types
 
+## 🔑 Key Files
+
+- [sanity.config.ts](sanity.config.ts) - Sanity CMS configuration
+- [next.config.ts](next.config.ts) - Next.js configuration
+- [tsconfig.json](tsconfig.json) - TypeScript configuration
+- [lib/subscription.ts](lib/subscription.ts) - Subscription management logic
+- [lib/ai/agents.ts](lib/ai/agents.ts) - AI agent implementations
+- [sanity/lib/client.ts](sanity/lib/client.ts) - Sanity client setup
+
 ## 🔐 Security
 
 - API tokens are stored securely in environment variables
